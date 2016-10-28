@@ -2,12 +2,14 @@
 
 ![example](https://d262ilb51hltx0.cloudfront.net/max/800/1*b-JlzTz6Mti8n5-BWTEq2Q.png)
 
-In order to {vision},
+In order to devliver pizzas,
 
-our product will solve {target audience}
+our product will allow people
 
-problem of {user problem}
+problem of eating pizzas at home fastly and cheaply
 
-by giving them {strategy}.
+by providing them a full functional food truck.
 
-We will know if our product works, when we see {goal}.
+We will know if our product works, when we will touch a lot of bills and people will talk about us as the only Pizza Truck.
+
+\#beRichAndFamous
