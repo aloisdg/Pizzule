@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head >
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pizzule - </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto:100');
+	</style>
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/chosen.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Pizzule</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container container_pizza">
+                <h1>Your pizza in one click</h1>
+				<form class="">
+                <div class="form-group">
+					  <select class="form-control"  id="sel1">
+						<option value="" disabled selected>Which base ? </option>
+						<option>Tomato</option>
+						<option>Cream</option>
+					  </select>
+					  <!--<select class="form-control"  id="sel1">-->
+					  <select data-placeholder="Wich bundles?..." class="chosen-select" multiple style="width:430px; margin-bottom:5px;" tabindex="4">
+						<!--<option value="" disabled selected>Which bundles ? </option>-->
+						<option>Mushrooms</option>
+						<option>Green paper</option>
+						<option>Onion</option>
+						<option>Beef</option>
+						<option>Chicken</option>
+						<option>Mozzarella</option>
+					  </select>
+					  <select class="form-control"  id="sel1">
+						<option value="" disabled selected>Do you prefer it fresh or frozen ? </option>
+						<option>Fresh</option>
+						<option>Frozen</option>
+					  </select>
+					<input type="text" class="form-control" id="address" placeholder="Where do you want the pizza ?">
+					<button type="submit" class="btn btn-primary">Make my pizz !</button>
+				</div>
+				</form>
+            </div>
+        </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/chosen.jquery.js" type="text/javascript"></script>
+  <script src="js/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+  </script>
+	
+</body>
+
+</html>
