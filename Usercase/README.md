@@ -17,7 +17,7 @@ Lq:
 ##	V1
 Tq:
 - Interface web avec : 
-    - sélection de base 
+    - sélection de base (tomate, crème, ...)
     - sélection du bundle (ingrédients)
     - sélection du type de condiments (frais / surgelés)
     - renseignement d’une adresse de livraison
