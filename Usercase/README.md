@@ -16,14 +16,19 @@ Lq:
 ##	V1
 Tq:
 - Interface web avec : 
+
 ### V1.1
+
 - sélection de base (tomate, crème, ...)
 - sélection du bundle (ingrédients)
 - sélection du type de condiments (frais / surgelés)
+
 ### V1.2
 - renseignement d’une adresse de livraison
+
 ### V1.3
 - renseignement d’un moyen de paiement
+
 ### V1.4
 - Serveur / DB (réception des commandes depuis l’IW)
 - Interface dans le camion pour préparation des commandes
