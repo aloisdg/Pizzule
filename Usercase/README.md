@@ -1,7 +1,6 @@
 #	Version
 
 ##	V0
-
 Tq:
 - Interface web avec un TextField [adresse] et un Button [commander] // Une seule pizza dispo
 
@@ -17,12 +16,15 @@ Lq:
 ##	V1
 Tq:
 - Interface web avec : 
-    - sélection de base (tomate, crème, ...)
-    - sélection du bundle (ingrédients)
-    - sélection du type de condiments (frais / surgelés)
-    - renseignement d’une adresse de livraison
-    - renseignement d’un moyen de paiement
-    - bouton d’envoie de la commande
+### V1.1
+- sélection de base (tomate, crème, ...)
+- sélection du bundle (ingrédients)
+- sélection du type de condiments (frais / surgelés)
+### V1.2
+- renseignement d’une adresse de livraison
+### V1.3
+- renseignement d’un moyen de paiement
+### V1.4
 - Serveur / DB (réception des commandes depuis l’IW)
 - Interface dans le camion pour préparation des commandes
 
