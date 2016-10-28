@@ -1,7 +1,17 @@
+# Legend
+
+*Tq : Technical needs
+
+*Lq : Logistical needs
+
+*VX : Version X
+
+
+
 #	Version
 
 ##	V0
-*Tq:
+_Tq_:
 
 - Interface web avec un TextField [adresse] et un Button [commander] // Une seule pizza dispo
 
@@ -21,7 +31,7 @@
 - Serveur / DB (réception des commandes depuis l’IW)
 - Interface dans le camion pour préparation des commandes
 
-*Lq:
+_Lq_:
 - Un camion équipé du matériel de cuisine nécessaire
 - Un pizzaiolo
 - Des ingrédients (une seule pizza)
@@ -31,7 +41,7 @@
 
 
 ##	V1
-*Tq:
+_Tq_:
 - Interface web avec : 
   - sélection de base (tomate, crème, ...)
   - sélection du bundle (ingrédients)
@@ -42,17 +52,17 @@
 - Interface dans le camion pour préparation des commandes
 
 
-*Lq:
+_Lq_:
 - Des vélos
 - Des livreurs
 - Des ingrédients plus variés
 
 
 ##	VNext
-*Tq: 
+_Tq_: 
 - Création de comptes utilisateurs pour un gain de temps sur la commande
 - Abonnements
 - Communautaire
 
-*Lq:
+_Lq_:
 - NULL
