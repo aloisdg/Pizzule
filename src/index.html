@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
-<head>
+<head >
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,14 +18,7 @@
 	</style>
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<link rel="stylesheet" href="css/chosen.css">
 </head>
 
 <body>
@@ -46,15 +39,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">A propos</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -67,30 +52,35 @@
         <div class="headline">
             <div class="container container_pizza">
                 <h1>Your pizza in one click</h1>
-				<form class="form-inline">
+				<form class="">
                 <div class="form-group">
-				  <input type="text" class="form-control" id="address" placeholder="Where do you want the pizza ?" style="width:220px;">
-				  <button type="submit" class="btn btn-primary">Make my pizz !</button>
+					  <select class="form-control"  id="sel1">
+						<option value="" disabled selected>Which base ? </option>
+						<option>Tomato</option>
+						<option>Cream</option>
+					  </select>
+					  <!--<select class="form-control"  id="sel1">-->
+					  <select data-placeholder="Wich bundles?..." class="chosen-select" multiple style="width:430px; margin-bottom:5px;" tabindex="4">
+						<!--<option value="" disabled selected>Which bundles ? </option>-->
+						<option>Mushrooms</option>
+						<option>Green paper</option>
+						<option>Onion</option>
+						<option>Beef</option>
+						<option>Chicken</option>
+						<option>Mozzarella</option>
+					  </select>
+					  <select class="form-control"  id="sel1">
+						<option value="" disabled selected>Do you prefer it fresh or frozen ? </option>
+						<option>Fresh</option>
+						<option>Frozen</option>
+					  </select>
+					<input type="text" class="form-control" id="address" placeholder="Where do you want the pizza ?">
+					<button type="submit" class="btn btn-primary">Make my pizz !</button>
 				</div>
 				</form>
             </div>
         </div>
     </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright Pizzule</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -98,6 +88,21 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+  <script src="js/chosen.jquery.js" type="text/javascript"></script>
+  <script src="js/prism.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+  </script>
+	
 </body>
 
 </html>
