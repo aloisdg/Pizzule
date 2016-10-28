@@ -1,12 +1,5 @@
 # What is your product?
 
-* vision=
-* target audience=
-* user problem=
-* strategy=
-* goal=
-
-
 ![example](https://d262ilb51hltx0.cloudfront.net/max/800/1*b-JlzTz6Mti8n5-BWTEq2Q.png)
 
 In order to {vision},
