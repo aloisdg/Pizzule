@@ -29,6 +29,8 @@ _Tq_:
 
 ### V0.4
 - Serveur / DB (réception des commandes depuis l’IW)
+
+### V0.5
 - Interface dans le camion pour préparation des commandes
 
 _Lq_:
