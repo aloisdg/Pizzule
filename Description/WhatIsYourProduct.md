@@ -10,6 +10,6 @@ problem of eating pizzas at home fastly and cheaply
 
 by providing them a full functional food truck.
 
-We will know if our product works, when we will touch a lot of bills and people will talk about us as the only Pizza Truck.
+We will know if our product works, when we will touch a lot of bills and people will talk about us as the only viable Pizza Truck.
 
 \#beRichAndFamous
