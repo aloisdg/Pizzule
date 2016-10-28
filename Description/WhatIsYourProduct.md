@@ -4,7 +4,7 @@
 
 In order to devliver pizzas,
 
-our product will allow people
+our product will allow people's
 
 problem of eating pizzas at home fastly and cheaply
 
