@@ -21,7 +21,7 @@ How does-it work ? It is as simple as possible :
 
     🍕 Tell us where you wanna be delivered
 
-Here we are ! Your pizza is born, and will grow up in our _Oven Truck_ ! To assure you the fastest delivery, the truck move towards you during the baking ! You will be notified by a revolutionary system when the pizza will be here : YOUR BELL !
+Here we are ! Your pizza is born, and will grow up in our _ Electric Oven Truck_ ! To assure you the fastest delivery, the truck move towards you during the baking ! You will be notified by a revolutionary system when the pizza will be here : YOUR BELL !
 
 What’s next ? You eat your pizza, you think something like « 😱Oh god ! This is the best pizza I’ve ever ate ! And wooow, it was soooo fast ! I will tell to all my friends how Pizzule is amazing !😱 ».
 
