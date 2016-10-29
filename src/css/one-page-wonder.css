@@ -5,29 +5,48 @@
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin: 0;
+	background: url('../img/pizza3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../img/pizza.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
-
 .container_pizza {
 	width: 500px;
-	height: 130px;
-	background: rgba(255,255,255, 0.8);
+	background: rgba(0,0,0, 0.5)
 	}
 
+.form-control {
+	margin: 0 0 8px 0;
+	}
+	
+.form-group {
+	margin: 20px;
+	}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #000;
+	}
+	
 .btn-primary {
-	background: #000;
-	border-color: #000;
+	background: #d87f6c;
+	border-color: #d87f6c;
+	}
+	
+.btn-primary:hover {
+	background: #bf7060;
+	border-color: #bf7060;
+	}
+	
+.navbar-inverse{
+	border-color: #d0d0d0;
 	}
 	
 .navbar-brand  {
@@ -42,6 +61,7 @@ body {
 .headline h1 {
     font-size: 30px;
 	font-family: 'Roboto', sans-serif;
+	color: #fff;
 }
 
 .headline h2 {
