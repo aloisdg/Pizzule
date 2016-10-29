@@ -2,31 +2,23 @@
 <html lang="en" >
 
 <head >
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+	<meta name="description" content="your new moving pizzeria" />
     <title>Pizzule - </title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<style>
-	@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto:100');
-	</style>
-    <!-- Custom CSS -->
+	<style>@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto:100');</style>
     <link href="css/one-page-wonder.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -34,24 +26,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Pizzule</a>
+                <a class="navbar-brand" href="">Pizzule</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
-    <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
             <div class="container container_pizza">
-                <h1>Your pizza in one click</h1>
+                <h1>Your pizza in 10sec</br> for only 8€ !</h1>
 				<form class="">
                 <div class="form-group">
 					  <select class="form-control"  id="sel1">
@@ -59,9 +46,7 @@
 						<option>Tomato</option>
 						<option>Cream</option>
 					  </select>
-					  <!--<select class="form-control"  id="sel1">-->
 					  <select data-placeholder="Wich bundles?..." class="chosen-select" multiple style="width:430px; margin-bottom:5px;" tabindex="4">
-						<!--<option value="" disabled selected>Which bundles ? </option>-->
 						<option>Mushrooms</option>
 						<option>Green paper</option>
 						<option>Onion</option>
@@ -75,22 +60,74 @@
 						<option>Frozen</option>
 					  </select>
 					<input type="text" class="form-control" id="address" placeholder="Where do you want the pizza ?">
-					<button type="submit" class="btn btn-primary">Make my pizz !</button>
+					<!--<button type="submit" class="btn btn-primary">-->
+					<a href="#0" class="cd-add-to-cart" data-price="8">Make my pizz !</a>
+					<!--</button>-->
 				</div>
 				</form>
             </div>
         </div>
     </header>
+	
+		
+	<div class="container" style="padding:10PX 150PX 50px 150PX;">
+        <div class="featurette" id="about">
+            <!--<img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">-->
+            <h2 class="featurette-heading text-center">Pizzule, your new moving pizzeria
+                <span class="text-muted" style="font-size:20px;"></br>offer you a fast service responding to your needs.</span>
+            </h2>
+			
+            <p class="lead">How does-it work ? It is as simple as possible :
+			</br> 🍕 Select your base
+			</br> 🍕 Select your Bundle* (you can choose between fresh and frozen condiments !)
+			</br> 🍕 Tell us where you wanna be delivered
+			</br>Here we are ! Your pizza is born, and will grow up in our Oven Truck !
+			</br>  To assure you the fastest delivery, the truck move towards you during the baking ! You will be notified by a revolutionary system when the pizza will be here : YOUR BELL !
+			</br>What’s next ? You eat your pizza, you think something like « 😱Oh god ! This is the best pizza I’ve ever ate ! And wooow, it was soooo fast ! I will tell to all my friends how Pizzule is amazing ! 😱 ».
+			</br>Enjoy your meal, and thank you !
+			*Bundle : The group of foodstuffs that you need in your pizza. You can combine them to make your dreamed pizza 😍.</p>
+        </div>
+	</div>
+	
+	<div class="cd-cart-container empty">
+	<a href="#0" class="cd-cart-trigger">
+		Cart
+		<ul class="count"> <!-- cart items count -->
+			<li>0</li>
+			<li>0</li>
+		</ul> <!-- .count -->
+	</a>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+	<div class="cd-cart">
+		<div class="wrapper">
+			<header>
+				<h2>Cart</h2>
+				<span class="undo">Item removed. <a href="#0">Undo</a></span>
+			</header>
+			
+			<div class="body">
+				<ul>
+					<!-- products added to the cart will be inserted here using JavaScript -->
+				</ul>
+			</div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+			<footer>
+				<a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+	
+	
+	
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/chosen.jquery.js" type="text/javascript"></script>
   <script src="js/prism.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
+  if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+  
     var config = {
       '.chosen-select'           : {},
       '.chosen-select-deselect'  : {allow_single_deselect:true},
