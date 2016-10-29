@@ -25,6 +25,8 @@ Here we are ! Your pizza is born, and will grow up in our _Electric Oven Truck_ 
 
 What’s next ? You eat your pizza, you think something like « 😱Oh god ! This is the best pizza I’ve ever ate ! And wooow, it was soooo fast ! I will tell to all my friends how Pizzule is amazing !😱 ».
 
+(We precise that Pizzule include the _OpenPizza_ format.)
+
 Enjoy your meal, and thank you !
 
 *Bundle : The group of foodstuffs that you need in your pizza. You can combine them to make your dreamed pizza 😍.
