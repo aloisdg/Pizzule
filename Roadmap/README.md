@@ -65,6 +65,7 @@ _Tq_:
 - Création de comptes utilisateurs pour un gain de temps sur la commande
 - Abonnements
 - Communautaire
+- Livraison programmée
 
 _Lq_:
 - NULL
